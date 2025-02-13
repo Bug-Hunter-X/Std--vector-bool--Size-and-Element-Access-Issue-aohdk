@@ -1,0 +1,1 @@
+std::vector<bool> vec; vec.push_back(true); vec.push_back(false); size_t size = vec.size(); //size will be 2 size_t sizeInBytes = vec.size() * sizeof(bool); //sizeInBytes will be 2, not necessarily 2 bytes, depends on the implementation.  bool b = vec[0];
